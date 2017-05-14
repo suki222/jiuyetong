@@ -1,0 +1,16 @@
+@import "../px2rem";
+@import "../var";
+
+.components_topnotice{
+  font-size: .5rem;
+  height: px2rem(80);
+  line-height: px2rem(80);
+  text-indent: 2rem;
+  background: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  .top-notice_img{
+    background: transparent url('../../assets/img/new_bg.png') 1rem center/px2rem(33) px2rem(33) no-repeat;
+  }
+}

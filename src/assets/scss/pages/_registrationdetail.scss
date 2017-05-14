@@ -1,0 +1,67 @@
+@import "../px2rem";
+@import "../var";
+
+.view_registration_detail{
+  font-size: .5rem;
+  padding-top: px2rem(80);
+  .registration_detail_content{
+    border: 1px solid $line-1;
+    border-radius: 8px;
+    background: white;
+    margin: px2rem(15);
+    .registration_detail_intro{
+      padding-left: px2rem(80);
+      padding-top: px2rem(30);
+      img{
+        height: px2rem(90);
+        width: px2rem(90);
+        float: left;
+      }
+      p{
+        color: $font_green;
+        font-size: .55rem;
+        padding-left: px2rem(60);
+        float: left;
+      }
+    }
+    .registration_detail_signed{
+      padding-left: px2rem(80);
+      float: left;
+      color: $fontgray;
+      margin: px2rem(40) 0;
+      span{
+        color: $font_green;
+        font-size: .55rem;
+      }
+    }
+    .registration_detail_pm{
+      padding-right: px2rem(80);
+      float: right;
+      color: $fontgray;
+      margin: px2rem(40) 0;
+      span{
+        color: $font_red;
+        font-size: .55rem;
+      }
+    }
+    .registration_detail_company_list{
+      border-top: 1px solid $line-1;
+      padding: px2rem(30) 0;
+      img{
+        width: px2rem(90);
+        height: px2rem(90);
+        margin-left: px2rem(40);
+        float: left;
+      }
+      .company_info{
+        float: left;
+        padding-left: px2rem(40);
+        width: 80%;
+        .company_name{
+          font-size: .55rem;
+          margin-bottom: px2rem(20);
+        }
+      }
+    }
+  }
+}
